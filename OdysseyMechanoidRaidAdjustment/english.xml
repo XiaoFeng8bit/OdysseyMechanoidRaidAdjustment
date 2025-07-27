@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <category>Odyssey Mechanoid Raid Adjustment</category>
+  
+  <Settings>Mechanoid Raid Adjustment Settings</Settings>
+  
+  <onStartMap>On Starting Map</onStartMap>
+  
+  <onStartMapTooltip>
+    If true, Mechanoid raids will warn 2,700 ticks in advance and arrive after 30,000 ticks (approx. 12hrs).
+    If false, warnings occur between 840,000-960,000 ticks with arrival between 1,080,000-2,100,000 ticks.
+  </onStartMapTooltip>
+
+  <autoClearOnStartMap>Auto-Clear Starting Map Flag (Multiplayer Fix)</autoClearOnStartMap>
+
+  <autoClearOnStartMapTooltip>
+    If true: Starting map flag auto-clears when leaving initial map (fixes Odyssey DLC/RimWorld Together conflict).
+    If false: Starting map flag persists until manually cleared.
+  </autoClearOnStartMapTooltip>
+
+  <enableMechanoidRaids>Enable Mechanoid Raids</enableMechanoidRaids>
+
+  <enableMechanoidRaidsTooltip>
+    If true: Forces mechanoid raids regardless of quest completion or Grav engine.
+    If false: Disables all mechanoid raids under any conditions.
+  </enableMechanoidRaidsTooltip>
+
+  <modifyMapWarningTimers>Modify Map Warning Timers</modifyMapWarningTimers>
+
+  <modifyMapWarningTimersTooltip>
+    If true: Allows custom raid warning times
+    If false: Uses default warning timers
+  </modifyMapWarningTimersTooltip>
+
+  <modifyMapWarningInPut>Raid Warning Countdown (ticks) (Max 960,000)</modifyMapWarningInPut>
+
+  <modifyMapRaidTimers>Modify Map Raid Timers</modifyMapRaidTimers>
+
+  <modifyMapRaidTimersTooltip>
+    If true: Allows custom raid arrival times
+    If false: Uses default arrival timers
+  </modifyMapRaidTimersTooltip>
+
+  <modifyMapRaidInPut>Raid Arrival Countdown (ticks) (Max 2,100,000)</modifyMapRaidInPut>
+
+  <modifyFireRaid>Modify Raid Parameters</modifyFireRaid>
+
+  <modifyFireRaidTooltip>
+    If true: Allows custom raid parameters
+    If false: Uses default parameters: threat points 5000, threat multiplier 1.5
+    Note: Final threat points = max(threat points, threat multiplier * map default threat value)
+  </modifyFireRaidTooltip>
+
+  <modifyFireRaidThreatPoints>Threat Points (Max 1,000,000,000)</modifyFireRaidThreatPoints>
+
+  <modifyFireRaidThreatMultiplier>Threat Multiplier (Max 1,000,000,000)</modifyFireRaidThreatMultiplier>
+
+  <modifyRaidIntervalTimer>Modify Raid Interval</modifyRaidIntervalTimer>
+
+  <modifyRaidIntervalTimerTooltip>
+    If true: Allows custom raid interval
+    If false: Uses default raid interval of 30,000
+  </modifyRaidIntervalTimerTooltip>
+
+  <modifyRaidIntervalInPut>Raid Interval</modifyRaidIntervalInPut>
+
+  <applyChangesAtNextTick>Apply Changes Next Tick</applyChangesAtNextTick>
+
+  <ApplyChanges>Apply Changes</ApplyChanges>
+
+</LanguageData>

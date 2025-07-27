@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <category>奥德赛机械族袭击调整</category>
+
+  <Settings>奥德赛机械族袭击调整设置</Settings>
+
+  <onStartMap>是否处于初始地图</onStartMap>
+
+  <onStartMapTooltip>
+    若设为true，机械族袭击将在 2700游戏刻 后发出警告，并于 3,0000游戏刻 后抵达（约 12游戏时）。
+    若设为false，机械族袭击将在 84,0000 至 96,0000游戏刻 后发出警告，并于 108,0000 至 210,0000游戏刻 后抵达。
+  </onStartMapTooltip>
+
+  <autoClearOnStartMap>是否自动修改初始地图标记(用于缓解RimWorld Together (MULTIPLAYER)与奥德赛DLC之间的一个bug)</autoClearOnStartMap>
+
+  <autoClearOnStartMapTooltip>
+    若设为true，初始地图标记将离开初始地图时自动清理。
+    若设为false，初始地图标记将不会被自动清理。
+  </autoClearOnStartMapTooltip>
+
+  <enableMechanoidRaids>是否启用机械族袭击</enableMechanoidRaids>
+
+  <enableMechanoidRaidsTooltip>
+    若设为true，无论是否完成任务或拥有逆重引擎都将开启机械族袭击。
+    若设为false，无论是否完成任务或拥有逆重引擎都将停用机械族袭击。
+  </enableMechanoidRaidsTooltip>
+
+  <modifyMapWarningTimers>修改地图警告计时器(机械族袭击警告时间)</modifyMapWarningTimers>
+
+  <modifyMapWarningTimersTooltip>
+    若设置为true,你可以修改地图警告计时器
+    若设置为false,则使用默认的地图警告计时器
+  </modifyMapWarningTimersTooltip>
+
+  <modifyMapWarningInPut>地图警告计时器(游戏刻)(最大96,0000)</modifyMapWarningInPut>
+
+  <modifyMapRaidTimers>修改地图袭击计时器(机械族袭击抵达时间)</modifyMapRaidTimers>
+
+  <modifyMapRaidTimersTooltip>
+    若设置为true,你可以修改袭击计时器
+    若设置为false,则使用默认的袭击计时器
+  </modifyMapRaidTimersTooltip>
+
+  <modifyMapRaidInPut>袭击计时器(游戏刻)(最大210,0000)</modifyMapRaidInPut>
+
+  <modifyFireRaid>修改袭击参数</modifyFireRaid>
+
+  <modifyFireRaidTooltip>
+    若设置为true,你可以修改袭击参数
+    若设置为false,则使用默认的袭击参数:威胁点数5,000,威胁倍率1.5
+    注意:最终 威胁点数=max(威胁点数,威胁倍率*地图默认威胁值)
+  </modifyFireRaidTooltip>
+
+  <modifyFireRaidThreatPoints>威胁点数(最大10,0000,0000)</modifyFireRaidThreatPoints>
+
+  <modifyFireRaidThreatMultiplier>威胁倍率(最大10,0000,0000)</modifyFireRaidThreatMultiplier>
+
+  <modifyRaidIntervalTimer>修改袭击间隔</modifyRaidIntervalTimer>
+  
+  <modifyRaidIntervalTimerTooltip>
+    若设置为true,你可以修改袭击间隔
+    若设置为false,则使用默认的袭击间隔3,0000
+  </modifyRaidIntervalTimerTooltip>
+
+  <modifyRaidIntervalInPut>袭击间隔</modifyRaidIntervalInPut>
+  
+  <applyChangesAtNextTick>在下一游戏刻应用修改</applyChangesAtNextTick>
+
+  <ApplyChanges>应用修改</ApplyChanges>
+
+</LanguageData>
